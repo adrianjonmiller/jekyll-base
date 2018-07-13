@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/adrianmiller/.nvm/versions/node/v10.2.1/bin/node /Users/adrianmiller/.nvm/versions/node/v10.2.1/bin/yarn add browserSync
+
+PATH: 
+  /usr/local/sbin:/Users/adrianmiller/.rvm/gems/ruby-2.4.1/bin:/Users/adrianmiller/.rvm/gems/ruby-2.4.1@global/bin:/Users/adrianmiller/.rvm/rubies/ruby-2.4.1/bin:/Applications/MAMP/bin/php/php5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/usr/local/sbin:/Users/adrianmiller/.nvm/versions/node/v10.2.1/bin:/Users/adrianmiller/.rvm/gems/ruby-2.4.1/bin:/Users/adrianmiller/.rvm/gems/ruby-2.4.1@global/bin:/Users/adrianmiller/.rvm/rubies/ruby-2.4.1/bin:/Applications/MAMP/bin/php/php5.6/bin:/Users/adrianmiller/.rvm/bin:/Users/adrianmiller/.rvm/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.2.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/browserSync: Not found
+      at Request.params.callback [as _callback] (/Users/adrianmiller/.nvm/versions/node/v10.2.1/lib/node_modules/yarn/lib/cli.js:65656:18)
+      at Request.self.callback (/Users/adrianmiller/.nvm/versions/node/v10.2.1/lib/node_modules/yarn/lib/cli.js:134675:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/adrianmiller/.nvm/versions/node/v10.2.1/lib/node_modules/yarn/lib/cli.js:135658:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/adrianmiller/.nvm/versions/node/v10.2.1/lib/node_modules/yarn/lib/cli.js:135578:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1090:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "youradvertisingsucks",
+    "version": "1.0.0",
+    "description": "A website, explaining how you're wrong",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

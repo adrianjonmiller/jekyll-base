@@ -1,0 +1,23 @@
+{
+  "name": "youradvertisingsucks",
+  "version": "1.0.0",
+  "description": "A website, explaining how you're wrong",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development node scripts/index.js",
+    "build": "NODE_ENV=production node scripts/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babelify": "8.0.0",
+    "browser-sync": "2.24.5",
+    "browserify": "16.2.2",
+    "child_process": "1.0.2",
+    "file-system": "2.2.2",
+    "path": "0.12.7",
+    "watchify": "3.11.0"
+  }
+}

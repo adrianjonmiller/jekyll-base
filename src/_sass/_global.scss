@@ -1,0 +1,58 @@
+// * {
+//   margin-top: 0;
+
+//   &:not(.collapse) + * {
+//     margin-top: 1rem;
+//   }
+
+//   &.collapse--half + * {
+//     margin-top: .5rem;
+//   }
+// }
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin-top: 0 !important;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  background-color: #eee;
+}
+
+a {
+  &:active,
+  &:hover,
+  &:link,
+  &:visited {
+    color: initial;
+  }
+}
+
+// Fieldset resets
+legend {
+  display: table;
+  padding: 0;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  min-width: 0;
+  padding: 0.01em 0 0 0;
+}
+
+body:not(:-moz-handler-blocked) fieldset {
+  display: table-cell;
+}
+
+input[type=text] {
+  padding: .5em .1em;
+}
+
+hr {
+  border: 0;
+  border-bottom: solid thin #555;
+  width: 100%;
+}

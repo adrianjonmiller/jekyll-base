@@ -1,0 +1,25 @@
+@import 'vars';
+
+@mixin min-tablet {
+  @media screen and (min-width: #{$tablet}) {
+    @content;
+  }
+}
+
+@mixin max-tablet {
+  @media screen and (max-width: #{$tablet}) {
+    @content;
+  }
+}
+
+@mixin min-desktop {
+  @media screen and (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@mixin max-desktop {
+  @media screen and (max-width: #{$desktop}) {
+    @content;
+  }
+}

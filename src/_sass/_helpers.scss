@@ -1,0 +1,17 @@
+@import 'mixins';
+
+.hide- {
+  &-tablet {
+    @include min-tablet {
+      display: none;
+    }
+  }
+}
+
+.show- {
+  &-tablet {
+    @include max-tablet {
+      display: none;
+    }
+  }
+}

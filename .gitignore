@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+bower_components
+app/partials/critical.css.hbs
+app/data
+_site
+.sass-cache

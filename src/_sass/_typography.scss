@@ -1,0 +1,9 @@
+@import 'vars';
+@import 'mixins';
+
+.smallcaps {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-size: .9em;
+  font-weight: bold
+}

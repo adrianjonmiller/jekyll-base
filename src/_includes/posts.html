@@ -1,0 +1,24 @@
+<ul class="posts unstyle">
+  {% for post in site.posts %}
+    <li class="posts-post">
+      {% if post.thumbnail %}
+      <small class="collapse">{{post.date | date: "%a, %b %d, %y"}}</small>
+      <div class="float--left">
+        <img src="{{post.thumbnail}}" alt="">
+      </div>
+      {% endif %}
+      <div>
+          <h4 class="posts-post-title unstyle b0 collapse--half"><a href="{{post.url}}" class="posts-post-title link unstyle">{{post.title}}</a> </h4>
+          {{ post.content }}
+      </div>
+      {% if post.link %}
+      <p>
+          <a href="{{post.link}}"  class="btn--sm a0">Read Original</a>
+      </p>  
+      {% endif %}
+      {% unless forloop.last %}
+      <hr>
+      {% endunless %}
+    </li>
+  {% endfor %}
+</ul>
